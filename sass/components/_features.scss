@@ -1,9 +1,9 @@
 .section.features {
   padding-bottom: 0;
-}
 
-.section.features .title {
-  margin-bottom: 10px;
+  .title {
+    margin-bottom: 10px;
+  }
 }
 
 .section-title {
@@ -17,6 +17,10 @@
 .section.features .section-list-item {
   margin-left: 30px;
   width: 270px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
 }
 
 .features-background-icon {
@@ -28,6 +32,3 @@
   margin-bottom: 30px;
 }
 
-.section.features .section-list-item:first-child {
-  margin-left: 0px;
-}

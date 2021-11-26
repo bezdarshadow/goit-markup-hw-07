@@ -115,3 +115,34 @@ ul {
 .light {
   color: var(--another-text-color);
 }
+
+.section-list.list {
+  display: flex;
+}
+
+.section-list .title {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-list .title-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-list .name {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-list .post {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}

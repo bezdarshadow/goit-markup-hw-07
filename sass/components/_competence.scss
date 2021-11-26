@@ -9,10 +9,11 @@
 .section.competence .list-pictures {
   position: relative;
   margin-right: 30px;
-}
 
-.section.competence .list-pictures:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
+
 }
 
 .section.competence .description {
